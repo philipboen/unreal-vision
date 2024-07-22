@@ -18,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${figtree.variable} max-container dark font-sans`}>
+      <body
+        className={`${figtree.variable} max-container dark font-sans`}
+      >
         {children}
       </body>
     </html>
