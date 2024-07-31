@@ -1,5 +1,5 @@
 import React from "react";
-import { SideBar } from "@/components/SideBar";
+import { SideBar } from "@/components/sidebar";
 
 export default function RootLayout({
   children,
